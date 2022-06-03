@@ -11,10 +11,7 @@ h1 {
 
 .subtitle {
   padding: 0.5rem 1rem;
-  background:
-    linear-gradient(to top,
-      rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0.25)) var(--primary-color);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)) var(--primary-color);
 }
 
 main {
@@ -25,7 +22,7 @@ main {
 body {
   display: flex;
   flex-direction: column;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 html,
@@ -37,3 +34,5 @@ footer {
   background: var(--primary-color);
   padding: 1rem;
 }
+
+/*# sourceMappingURL=index.css.map */
