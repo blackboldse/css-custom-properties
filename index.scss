@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #9716d3;
+  --clr-primary: #9716d3;
 }
 
 h1 {
-  background: var(--primary-color);
+  background: var(--clr-primary);
   margin: 0;
   padding: 1rem;
   color: white;
@@ -14,7 +14,7 @@ h1 {
   background:
     linear-gradient(to top,
       rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0.25)) var(--primary-color);
+      rgba(0, 0, 0, 0.25)) var(--clr-primary);
 }
 
 main {
@@ -34,6 +34,6 @@ body {
 }
 
 footer {
-  background: var(--primary-color);
+  background: var(--clr-primary);
   padding: 1rem;
 }
